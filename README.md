@@ -47,6 +47,10 @@ The project includes training and inference notebooks for ASR, punctuation resto
 ### Punctuation Restoration
 - [This](./notebooks/Punctuation-Notebooks/Punctuation.ipynb) was used to train the punctuation restoration model.
 
+### Full Pipeline Evaluation
+- We created a small dataset of 900 samples (3 speakers, 300 sentences each of different categories (Named Entities, Simple Statements, Complex Statements, Questions, Commands)) to evaluate our full pipeline.
+- [This](./notebooks/Pipeline-Evaluation-Notebooks/Pipeline_Evaluation_Dataset_Creation.ipynb) was used to convert recorded mp3 files to a stadardized 16KHz wav files and push to the dataset to HuggingFace.
+
 ### Final DEMO
 - A GradIO interface has been implemented to showcase the final models.
 - The notebook can be found [here.](./notebooks/Final-DEMO/Major_Project_Demo.ipynb)
